@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-7-регистр-e",
+  "editForm": "i-i-s-7-регистр-e",
+  "external": false,
+  "caption": "Регистр",
+  "name": "IIS7РегистрL",
+  "className": "РегистрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-7-регистр",
+      "modelProjection": "РегистрL"
+    }
+  ]
+}

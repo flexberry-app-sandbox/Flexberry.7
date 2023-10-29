@@ -1,0 +1,88 @@
+<h3 class="ui header">{{t "forms.i-i-s-7-запись-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.времяОкончания
+      class=(if (v-get validationModel "времяОкончания" "isInvalid") "error")
+      label=(t "forms.i-i-s-7-запись-e.времяОкончания-caption")
+      data-test-i-i-s-7-запись-e-времяОкончания=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "времяОкончания" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.времяНачала
+      class=(if (v-get validationModel "времяНачала" "isInvalid") "error")
+      label=(t "forms.i-i-s-7-запись-e.времяНачала-caption")
+      data-test-i-i-s-7-запись-e-времяНачала=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "времяНачала" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-7-запись-e.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.дата
+      class=(if (v-get validationModel "дата" "isInvalid") "error")
+      data-test-i-i-s-7-запись-e-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодЗаявки
+      class=(if (v-get validationModel "кодЗаявки" "isInvalid") "error")
+      label=(t "forms.i-i-s-7-запись-e.кодЗаявки-caption")
+      data-test-i-i-s-7-запись-e-кодЗаявки=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодЗаявки" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодРегистра
+      class=(if (v-get validationModel "кодРегистра" "isInvalid") "error")
+      label=(t "forms.i-i-s-7-запись-e.кодРегистра-caption")
+      data-test-i-i-s-7-запись-e-кодРегистра=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодРегистра" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодЗаписи
+      class=(if (v-get validationModel "кодЗаписи" "isInvalid") "error")
+      label=(t "forms.i-i-s-7-запись-e.кодЗаписи-caption")
+      data-test-i-i-s-7-запись-e-кодЗаписи=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодЗаписи" "message")}}
+  </div>
+</form>

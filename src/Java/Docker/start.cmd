@@ -1,0 +1,1 @@
+docker-compose -p 7-java up -d

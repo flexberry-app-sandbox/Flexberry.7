@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-7-контрагент-e",
+  "editForm": "i-i-s-7-контрагент-e",
+  "external": false,
+  "caption": "Контрагент",
+  "name": "IIS7КонтрагентL",
+  "className": "КонтрагентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-7-контрагент",
+      "modelProjection": "КонтрагентL"
+    }
+  ]
+}

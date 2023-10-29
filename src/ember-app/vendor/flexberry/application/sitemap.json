@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "7",
+  "applicationTitle": "7",
+  "items": [
+    {
+      "link": null,
+      "menuName": "7",
+      "caption": "7",
+      "title": "7",
+      "children": [
+        {
+          "link": "i-i-s-7-заявка-l",
+          "menuName": null,
+          "caption": "Заявка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-7-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-7-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-7-контрагент-l",
+          "menuName": null,
+          "caption": "Контрагент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-7-регистр-l",
+          "menuName": null,
+          "caption": "Регистр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-7-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

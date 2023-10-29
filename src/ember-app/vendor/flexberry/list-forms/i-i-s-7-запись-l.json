@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-7-запись-e",
+  "editForm": "i-i-s-7-запись-e",
+  "external": false,
+  "caption": "Запись",
+  "name": "IIS7ЗаписьL",
+  "className": "ЗаписьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-7-запись",
+      "modelProjection": "ЗаписьL"
+    }
+  ]
+}
